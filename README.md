@@ -1,4 +1,6 @@
 Customer Churn Analysis
+
+
 📌 Project Overview
 This project focuses on identifying patterns in customer behavior to predict customer churn using the Telco Customer Churn dataset. By analyzing customer demographics, account information, and service usage, the goal is to build a machine learning model that helps identify customers who are likely to leave the service.
 
@@ -15,69 +17,45 @@ Target Variable: Customer Churn (Yes / No).
 
 🛠️ Machine Learning Workflow
 1) Data Preprocessing
-
-Removed irrelevant columns such as customer ID.
-
-Handled missing values.
-
-Applied one-hot encoding to categorical variables.
-
-Addressed class imbalance using class_weight='balanced'.
+  Removed irrelevant columns such as customer ID.
+  Handled missing values.
+  Applied one-hot encoding to categorical variables.
+  Addressed class imbalance using class_weight='balanced'.
 
 2) Exploratory Data Analysis (EDA)
-
-Analyzed churn distribution.
-
-Studied relationships between customer features and churn behavior.
-
-Identified trends related to tenure and customer satisfaction.
+  Analyzed churn distribution.
+  Studied relationships between customer features and churn behavior.
+  Identified trends related to tenure and customer satisfaction.
 
 3) Model Building
-
-Implemented a Random Forest Classifier.
-
-Evaluated model performance with a focus on identifying churned customers.
-
-Emphasized Recall to ensure potential churners are captured effectively.
+  Implemented a Random Forest Classifier.
+  Evaluated model performance with a focus on identifying churned customers.
+  Emphasized Recall to ensure potential churners are captured effectively.
 
 4) Hyperparameter Tuning
-
-Used GridSearchCV.
-
-Optimized model parameters based on the "Recall" metric.
+  Used GridSearchCV.
+  Optimized model parameters based on the "Recall" metric.
 
 📈 Key Results
 The Random Forest model achieved improved performance compared to basic approaches.
-
 Model evaluation was performed using Accuracy, Recall, and Confusion Matrix.
-
 Feature importance analysis revealed:
-
 Satisfaction Score
-
 Customer Tenure
-
 These are the most influential factors in predicting customer churn.
 
 💻 Technologies Used
-Python
-
-Pandas & NumPy
-
-Scikit-learn
-
-Matplotlib / Seaborn
-
-Jupyter Notebook
+  -Python
+  -Pandas & NumPy
+  -Scikit-learn
+  -Matplotlib / Seaborn
+  -Jupyter Notebook
 
 🚀 Future Improvements
-Experiment with advanced models such as XGBoost or LightGBM.
-
-Perform deeper feature engineering.
-
-Deploy the model using Flask or Streamlit.
-
-Create an interactive dashboard using Power BI.
+  - Experiment with advanced models such as XGBoost or LightGBM.
+  - Perform deeper feature engineering.
+  - Deploy the model using Flask or Streamlit.
+  - Create an interactive dashboard using Power BI.
 
 💡 Conclusion
 This project demonstrates an end-to-end machine learning workflow, including data preprocessing, exploratory analysis, model training, and evaluation. The insights gained from this analysis can help businesses take proactive steps to reduce customer churn and improve retention.
